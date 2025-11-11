@@ -1,0 +1,85 @@
+/* ---- Elegant Gradient Background ---- */
+.stApp {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ---- Header ---- */
+h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    color: #fff;
+    text-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    color: #cfd8dc;
+    font-size: 1.1rem;
+}
+
+/* ---- Text Area ---- */
+textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* ---- Button ---- */
+.stButton > button {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.7);
+}
+
+/* ---- Result Box ---- */
+.result-box {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 1s ease;
+}
+
+.confidence {
+    font-size: 18px;
+    margin-top: 8px;
+    opacity: 0.9;
+}
+
+/* ---- Scrollbar Styling ---- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 200, 255, 0.5);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 200, 255, 0.8);
+}
+
+/* ---- Smooth Fade Animation ---- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
